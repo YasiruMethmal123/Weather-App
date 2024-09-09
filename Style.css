@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('Summer.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Container for the red divs */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+
+.nav-search-grid{
+    background-color:  rgba(255,255,255,0.5);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%; /* Default width */
+    margin: 10px 0;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 1024px) {
+    .nav-search-grid,.weather-grid{
+        height: 100px; /* Div height for desktop */
+    }
+}
+
+/* Medium Screens (Laptops) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .nav-search-grid{
+        height: 90px; /* Div height for laptops */
+    }
+}
+
+/* Small Screens (Tablets) */
+@media (min-width: 600px) and (max-width: 767px) {
+    .nav-search-grid {
+        height: 80px; /* Div height for tablets */
+        width: 90%; /* Adjust width for smaller screens */
+    }
+}
+
+/* Extra Small Screens (Mobile Phones) */
+@media (max-width: 599px) {
+    .nav-search-grid{
+        height: 70px; /* Div height for mobiles */
+        width: 95%; /* Adjust width for mobile screens */
+    }
+}
+.searchbar-grid{
+    width: 100px;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.loc-search{
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+}
+.search-btn{
+
+}
+.calander{
+    width: 400px;
+    height: 40px;
+}
+.weather-grid{
+    background-color:  rgba(255,255,255,0.5);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%; /* Default width */
+    height: 1000px;
+    margin: 10px 0;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.weather_details_grid{
+    background-color:  rgba(255,255,255,0.5);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%; /* Default width */
+    height: 1000px;
+    margin: 10px 0;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.hourly_forcast_grid{
+    background-color:  rgba(255,255,255,0.5);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%; /* Default width */
+    height: 1000px;
+    margin: 10px 0;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.weather_details_grid-min{
+    width: 1000px;
+    height: 300px;
+}
+.hourly_forcast_grid-min{
+    width: 1000px;
+    height: 300px;
+}
+.rainfallChart-grid{
+    background-color:  rgba(255,255,255,0.5);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%; /* Default width */
+    height: 1000px;
+    margin: 10px 0;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.rain-grid{
+    width: 90%;
+    height: 300px;
+}
+.temperatureChart-grid{
+    background-color:  rgba(255,255,255,0.5);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%; /* Default width */
+    height: 1000px;
+    margin: 10px 0;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.weather-condition-grid{
+    background-color: black;
+    opacity: .4;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%; /* Default width */
+    height: 300px;
+    margin: 10px 0;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+}
